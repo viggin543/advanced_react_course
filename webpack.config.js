@@ -1,25 +1,26 @@
 const path = require('path');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 module.exports = {
-  entry: ['babel-polyfill', './lib/components/Index.jsx'],
-  entry: ['babel-polyfill', './lib/components/Index.jsx'],
+  entry: ['./lib/components/App.scss','babel-polyfill','./lib/components/Index.jsx',],
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json','.scss']
+    extensions: ['.js', '.jsx', '.json', '.scss']
   },
   module: {
-    loaders: [
+    rules: [
       { test: /\.(jsx|js)$/, loader: 'babel-loader', exclude: /node_modules/ },
       {
         test: /\.scss$/,
-        use: [
-          { loader: "style-loader" },
-          { loader: "css-loader" },
-          { loader: "sass-loader" }
-        ]
-      }
+        use: ExtractTextPlugin.extract([
+           "css-loader", "sass-loader"
+        ]),
+        exclude: /node_modules/
+      },
     ]
-  }
+  },
+  plugins: [new ExtractTextPlugin('style.css')]  
 };
