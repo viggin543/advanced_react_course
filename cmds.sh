@@ -6,6 +6,7 @@ yarn eslint --init
 yarn add --dev eslint-plugin-react
 yarn add --dev babel-eslint
 yarn dev # run server
+https://github.com/Unitech/pm2
 yarn pm2 logs  # see dev server logs
 yarn pm2 kill # guess what ..
 yarn webpaack -wd
@@ -24,3 +25,4 @@ yarn NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node
   },
 
     "stage-2"  : this one says babel to take javascript version including all the polyfills
+    The TC39 Process

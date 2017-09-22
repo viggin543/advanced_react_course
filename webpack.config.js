@@ -1,12 +1,24 @@
 const path = require('path');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 
 module.exports = {
-  entry: ['./lib/components/App.scss',
-    'babel-polyfill', './lib/renderers/dom.jsx',],
+  entry: {
+    styles: './lib/components/App.scss',
+    vendor: [
+      'babel-polyfill',
+      'react',
+      'react-dom',
+      'prop-types',
+      'lodash.debounce',
+      'lodash.pickby'
+    ],
+    app: './lib/renderers/dom.jsx'
+  },
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
   resolve: {
     modules: ['lib', 'node_modules'],
@@ -15,17 +27,31 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jsx|js)$/, loader: 'babel-loader',
+        test: /\.(jsx|js)$/, use:{
+          loader:'babel-loader',
+          options:{
+            presets:[
+              'react',
+              'env',
+              'stage-2'
+            ]
+          }
+        },
         exclude: /node_modules/
       },
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract([
-          "css-loader", "sass-loader"
+          'css-loader', 'sass-loader'
         ]),
         exclude: /node_modules/
       },
     ]
   },
-  plugins: [new ExtractTextPlugin('style.css')]
+  plugins: [
+    new ExtractTextPlugin('[name].css'),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor'
+    })
+  ]
 };

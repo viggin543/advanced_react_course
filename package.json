@@ -4,13 +4,17 @@
   "main": "lib/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node --name appDev",
     "webpack": "webpack -wd",
+    "dist": "webpack -p",
     "test": "jest --watch",
-    "coverege": "jest --coverage"
+    "coverege": "jest --coverage",
+    "build-node": "babel lib -d build --copy-files",
+    "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProd"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
+    "babel-preset-node6": "^11.0.0",
     "enzyme": "^2.9.1",
     "eslint": "^4.6.1",
     "eslint-config-airbnb": "^15.1.0",
@@ -22,13 +26,16 @@
     "jest": "^21.1.0",
     "react-addons-perf": "^15.4.2",
     "react-addons-test-utils": "^15.6.0",
-    "react-test-render": "^1.0.3"
+    "react-test-renderer": "^15.6.1"
   },
   "babel": {
     "presets": [
       "react",
-      "env",
-      "stage-2"
+      "node6"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
     ]
   },
   "dependencies": {
@@ -51,7 +58,6 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-test-renderer": "^15.6.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0"

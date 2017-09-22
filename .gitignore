@@ -1,2 +1,9 @@
 node_modules
 coverage
+public/bundle.js
+public/style.css
+build
+public/app.js
+public/styles.css
+public/styles.js
+public/vendor.js
