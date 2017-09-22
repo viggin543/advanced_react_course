@@ -1,6 +1,6 @@
 before_script:
- - npm install
-script: npm run test
+ - yarn
+script: yarn jest --coverege 
 language: node_js
 env:
  - PORT=8090
