@@ -1,6 +1,6 @@
 before_script:
  - yarn
-script: yarn jest --coverege 
+script: yarn jest --coverage 
 language: node_js
 env:
  - PORT=8090
