@@ -1,8 +1,8 @@
 before_script:
-	- npm install
-sript:	npm run test
-language:	node_js
+ - npm install
+script: npm run test
+language: node_js
 env:
-	-	PORT=8089
+ - PORT=8090
 node_js:
-	-	"8"
+ - "8"
