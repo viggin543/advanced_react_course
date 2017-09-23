@@ -7,3 +7,4 @@ public/app.js
 public/styles.css
 public/styles.js
 public/vendor.js
+.coveralls.yml
