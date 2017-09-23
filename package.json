@@ -10,7 +10,8 @@
     "test": "jest --watch",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "build-node": "babel lib -d build --copy-files",
-    "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProduction"
+    "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProduction",
+    "start":"run-s dist build-node start-prod"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
@@ -27,6 +28,7 @@
     "jest": "^21.1.0",
     "jest-cli": "^21.1.0",
     "jest-haste-map": "^21.1.0",
+    "npm-run-all": "^4.1.1",
     "react-addons-perf": "^15.4.2",
     "react-addons-test-utils": "^15.6.0",
     "react-test-renderer": "^15.6.1"
