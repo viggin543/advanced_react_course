@@ -8,13 +8,14 @@
     "webpack": "webpack -wd",
     "dist": "webpack -p",
     "test": "jest --watch",
-    "coverege": "jest --coverage",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "build-node": "babel lib -d build --copy-files",
     "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProduction"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "babel-preset-node6": "^11.0.0",
+    "coveralls": "^2.13.1",
     "enzyme": "^2.9.1",
     "eslint": "^4.6.1",
     "eslint-config-airbnb": "^15.1.0",

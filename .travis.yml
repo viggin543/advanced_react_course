@@ -1,8 +1,9 @@
 before_script:
  - yarn
-script: yarn jest --coverage 
+script: yarn coverage 
 language: node_js
 env:
  - PORT=8090
 node_js:
  - "8"
+#  - "0.12" this will run the build on different versions on node !!! cool 
