@@ -11,7 +11,7 @@
     "coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "build-node": "babel lib -d build --copy-files",
     "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProduction",
-    "start":"run-s dist build-node start-prod"
+    "start":"ls && run-s dist build-node start-prod"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
