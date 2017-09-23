@@ -1,3 +1,6 @@
+sudo: required
+services:
+  - docker
 before_script:
  - yarn
 script: yarn coverage 
