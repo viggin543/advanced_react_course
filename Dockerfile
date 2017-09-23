@@ -2,6 +2,7 @@ FROM node:latest
 LABEL author="domrevigor@gmail.com"
 ADD ["package.json","webpack.config.js", "/"] 
 ADD lib /lib/
+ADD views /views/
 ENV PORT=8099
 EXPOSE 8089
 RUN npm install --production && \
