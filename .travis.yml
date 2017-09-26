@@ -9,4 +9,7 @@ env:
  - PORT=8090
 node_js:
  - "8"
-#  - "0.12" this will run the build on different versions on node !!! cool 
+after_success:
+  - docker build -t domrevigor/domrevigor:advanced-react .
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push domrevigor/domrevigor:advanced-react
