@@ -34,3 +34,7 @@ yarn NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node
     [+] setting environment variable $DOCKER_USERNAME
     travis env set DOCKER_PASSWORD secretsecret
     [+] setting environment variable $DOCKER_PASSWORD
+
+
+    npm outdated
+    travis encrypt $(heroku auth:token) --add deploy.api_key

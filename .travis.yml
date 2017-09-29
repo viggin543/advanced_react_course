@@ -1,16 +1,17 @@
 sudo: required
 services:
-  - docker
+- docker
 before_script:
- - yarn
-script: yarn coverage 
+- yarn
+script: yarn coverage
 language: node_js
 env:
- - PORT=8090
+- PORT=8090
 node_js:
- - "8"
+- '8'
 after_success:
-  - docker build -t domrevigor/domrevigor:advanced-react .
-  - echo "$DOCKER_USERNAME"
-  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push domrevigor/domrevigor:advanced-react
+- docker build -t domrevigor/domrevigor:advanced-react .
+- echo "$DOCKER_USERNAME"
+- docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+- docker push domrevigor/domrevigor:advanced-react
+- wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh heroku plugins:install heroku-docker
