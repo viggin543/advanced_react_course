@@ -38,3 +38,5 @@ yarn NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node
 
     npm outdated
     travis encrypt $(heroku auth:token) --add deploy.api_key
+
+    heroku open --app advanced-react-course
