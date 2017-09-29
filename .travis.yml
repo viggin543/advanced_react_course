@@ -14,5 +14,6 @@ after_success:
 - echo "$DOCKER_USERNAME"
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 - docker push domrevigor/domrevigor:advanced-react
-- wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh heroku plugins:install heroku-docker
-- heroku docker:release --web
+- wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh 
+- heroku container:login
+- heroku container:push web
