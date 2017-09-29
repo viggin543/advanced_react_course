@@ -17,4 +17,4 @@ after_success:
 - docker tag domrevigor/domrevigor:advanced-react registry.heroku.com/advanced-react-course/web
 - wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh 
 - heroku container:login
-- docker push registry.heroku.com/registry.heroku.com/advanced-react-course/web
+- docker push registry.heroku.com/advanced-react-course/web
