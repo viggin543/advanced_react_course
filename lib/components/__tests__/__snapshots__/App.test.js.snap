@@ -1,0 +1,658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="col-md-8"
+  >
+    <div>
+      <h1>
+         DEV BLOG 
+      </h1>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <TimeStampContainer />
+      <SearchBarContainer />
+    </div>
+    <ArticleList
+      articles={
+        Object {
+          "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+            "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+            "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+            "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+            "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+            "title": "Create Apps with No Configuration",
+          },
+          "95c12a8f6c88953ca8f8a39da25546e6": Object {
+            "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+            "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+            "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+            "id": "95c12a8f6c88953ca8f8a39da25546e6",
+            "title": "Introducing React's Error Code System",
+          },
+          "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+            "authorId": "335fb02ec8f76c8515821ac9f266d276",
+            "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+            "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+            "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+            "title": "Relay: State of the State",
+          },
+          "cc7781c085cf37aabf120098085ff60c": Object {
+            "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+            "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+            "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+            "id": "cc7781c085cf37aabf120098085ff60c",
+            "title": "Mixins Considered Harmful",
+          },
+          "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+            "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+            "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+            "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+            "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+            "title": "React v15.5.0",
+          },
+        }
+      }
+    />
+  </div>,
+  "nodes": Array [
+    <div
+      className="col-md-8"
+    >
+      <div>
+        <h1>
+           DEV BLOG 
+        </h1>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <TimeStampContainer />
+        <SearchBarContainer />
+      </div>
+      <ArticleList
+        articles={
+          Object {
+            "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+              "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+              "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+              "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+              "title": "Create Apps with No Configuration",
+            },
+            "95c12a8f6c88953ca8f8a39da25546e6": Object {
+              "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+              "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+              "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "95c12a8f6c88953ca8f8a39da25546e6",
+              "title": "Introducing React's Error Code System",
+            },
+            "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+              "authorId": "335fb02ec8f76c8515821ac9f266d276",
+              "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+              "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+              "title": "Relay: State of the State",
+            },
+            "cc7781c085cf37aabf120098085ff60c": Object {
+              "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+              "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+              "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "cc7781c085cf37aabf120098085ff60c",
+              "title": "Mixins Considered Harmful",
+            },
+            "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+              "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+              "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+              "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+              "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+              "title": "React v15.5.0",
+            },
+          }
+        }
+      />
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <App
+        store={
+          StateApi {
+            "data": Object {
+              "articles": Object {
+                "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+                  "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+                  "title": "Create Apps with No Configuration",
+                },
+                "95c12a8f6c88953ca8f8a39da25546e6": Object {
+                  "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+                  "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+                  "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "95c12a8f6c88953ca8f8a39da25546e6",
+                  "title": "Introducing React's Error Code System",
+                },
+                "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+                  "authorId": "335fb02ec8f76c8515821ac9f266d276",
+                  "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+                  "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+                  "title": "Relay: State of the State",
+                },
+                "cc7781c085cf37aabf120098085ff60c": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+                  "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "cc7781c085cf37aabf120098085ff60c",
+                  "title": "Mixins Considered Harmful",
+                },
+                "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+                  "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+                  "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+                  "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+                  "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+                  "title": "React v15.5.0",
+                },
+              },
+              "authors": Object {
+                "2c6aa2cfe3449467d329fa17d6ea230f": Object {
+                  "firstName": "Keyan",
+                  "id": "2c6aa2cfe3449467d329fa17d6ea230f",
+                  "lastName": "Zhang",
+                  "website": "https://twitter.com/keyanzhang",
+                },
+                "335fb02ec8f76c8515821ac9f266d276": Object {
+                  "firstName": "Joseph",
+                  "id": "335fb02ec8f76c8515821ac9f266d276",
+                  "lastName": "Savona",
+                  "website": "https://twitter.com/en_JS",
+                },
+                "78ae672985c41fae0ecde0133f41bbfa": Object {
+                  "firstName": "Dan",
+                  "id": "78ae672985c41fae0ecde0133f41bbfa",
+                  "lastName": "Abramov",
+                  "website": "https://twitter.com/dan_abramov",
+                },
+                "d85577ea34ae50f2dac5347b5219aa23": Object {
+                  "firstName": "Andrew",
+                  "id": "d85577ea34ae50f2dac5347b5219aa23",
+                  "lastName": "Clark",
+                  "website": "https://twitter.com/acdlite",
+                },
+              },
+              "searchTerm": "",
+              "timestamp": 2016-12-31T22:00:00.000Z,
+            },
+            "getState": [Function],
+            "lookupAuthor": [Function],
+            "mapIntoObject": [Function],
+            "mergeWithState": [Function],
+            "notifyAll": [Function],
+            "search": [Function],
+            "startClock": [Function],
+            "subscribe": [Function],
+            "subscriberMaxId": 0,
+            "subscribers": Object {},
+            "unsubscribe": [Function],
+          }
+        }
+      />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": App {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "filterArticles": [Function],
+        "onStateChange": [Function],
+        "props": Object {
+          "store": StateApi {
+            "data": Object {
+              "articles": Object {
+                "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+                  "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+                  "title": "Create Apps with No Configuration",
+                },
+                "95c12a8f6c88953ca8f8a39da25546e6": Object {
+                  "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+                  "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+                  "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "95c12a8f6c88953ca8f8a39da25546e6",
+                  "title": "Introducing React's Error Code System",
+                },
+                "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+                  "authorId": "335fb02ec8f76c8515821ac9f266d276",
+                  "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+                  "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+                  "title": "Relay: State of the State",
+                },
+                "cc7781c085cf37aabf120098085ff60c": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+                  "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "cc7781c085cf37aabf120098085ff60c",
+                  "title": "Mixins Considered Harmful",
+                },
+                "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+                  "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+                  "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+                  "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+                  "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+                  "title": "React v15.5.0",
+                },
+              },
+              "authors": Object {
+                "2c6aa2cfe3449467d329fa17d6ea230f": Object {
+                  "firstName": "Keyan",
+                  "id": "2c6aa2cfe3449467d329fa17d6ea230f",
+                  "lastName": "Zhang",
+                  "website": "https://twitter.com/keyanzhang",
+                },
+                "335fb02ec8f76c8515821ac9f266d276": Object {
+                  "firstName": "Joseph",
+                  "id": "335fb02ec8f76c8515821ac9f266d276",
+                  "lastName": "Savona",
+                  "website": "https://twitter.com/en_JS",
+                },
+                "78ae672985c41fae0ecde0133f41bbfa": Object {
+                  "firstName": "Dan",
+                  "id": "78ae672985c41fae0ecde0133f41bbfa",
+                  "lastName": "Abramov",
+                  "website": "https://twitter.com/dan_abramov",
+                },
+                "d85577ea34ae50f2dac5347b5219aa23": Object {
+                  "firstName": "Andrew",
+                  "id": "d85577ea34ae50f2dac5347b5219aa23",
+                  "lastName": "Clark",
+                  "website": "https://twitter.com/acdlite",
+                },
+              },
+              "searchTerm": "",
+              "timestamp": 2016-12-31T22:00:00.000Z,
+            },
+            "getState": [Function],
+            "lookupAuthor": [Function],
+            "mapIntoObject": [Function],
+            "mergeWithState": [Function],
+            "notifyAll": [Function],
+            "search": [Function],
+            "startClock": [Function],
+            "subscribe": [Function],
+            "subscriberMaxId": 0,
+            "subscribers": Object {},
+            "unsubscribe": [Function],
+          },
+        },
+        "readState": [Function],
+        "refs": Object {},
+        "state": Object {
+          "articles": Object {
+            "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+              "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+              "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+              "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+              "title": "Create Apps with No Configuration",
+            },
+            "95c12a8f6c88953ca8f8a39da25546e6": Object {
+              "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+              "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+              "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "95c12a8f6c88953ca8f8a39da25546e6",
+              "title": "Introducing React's Error Code System",
+            },
+            "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+              "authorId": "335fb02ec8f76c8515821ac9f266d276",
+              "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+              "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+              "title": "Relay: State of the State",
+            },
+            "cc7781c085cf37aabf120098085ff60c": Object {
+              "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+              "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+              "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "cc7781c085cf37aabf120098085ff60c",
+              "title": "Mixins Considered Harmful",
+            },
+            "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+              "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+              "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+              "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+              "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+              "title": "React v15.5.0",
+            },
+          },
+          "searchTerm": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="col-md-8"
+        >
+          <div>
+            <h1>
+               DEV BLOG 
+            </h1>
+          </div>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <TimeStampContainer />
+            <SearchBarContainer />
+          </div>
+          <ArticleList
+            articles={
+              Object {
+                "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+                  "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+                  "title": "Create Apps with No Configuration",
+                },
+                "95c12a8f6c88953ca8f8a39da25546e6": Object {
+                  "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+                  "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+                  "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "95c12a8f6c88953ca8f8a39da25546e6",
+                  "title": "Introducing React's Error Code System",
+                },
+                "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+                  "authorId": "335fb02ec8f76c8515821ac9f266d276",
+                  "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+                  "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+                  "title": "Relay: State of the State",
+                },
+                "cc7781c085cf37aabf120098085ff60c": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+                  "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "cc7781c085cf37aabf120098085ff60c",
+                  "title": "Mixins Considered Harmful",
+                },
+                "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+                  "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+                  "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+                  "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+                  "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+                  "title": "React v15.5.0",
+                },
+              }
+            }
+          />
+        </div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="col-md-8"
+        >
+          <div>
+            <h1>
+               DEV BLOG 
+            </h1>
+          </div>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <TimeStampContainer />
+            <SearchBarContainer />
+          </div>
+          <ArticleList
+            articles={
+              Object {
+                "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+                  "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+                  "title": "Create Apps with No Configuration",
+                },
+                "95c12a8f6c88953ca8f8a39da25546e6": Object {
+                  "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+                  "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+                  "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "95c12a8f6c88953ca8f8a39da25546e6",
+                  "title": "Introducing React's Error Code System",
+                },
+                "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+                  "authorId": "335fb02ec8f76c8515821ac9f266d276",
+                  "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+                  "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+                  "title": "Relay: State of the State",
+                },
+                "cc7781c085cf37aabf120098085ff60c": Object {
+                  "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+                  "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+                  "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+                  "id": "cc7781c085cf37aabf120098085ff60c",
+                  "title": "Mixins Considered Harmful",
+                },
+                "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+                  "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+                  "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+                  "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+                  "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+                  "title": "React v15.5.0",
+                },
+              }
+            }
+          />
+        </div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <App
+    store={
+      StateApi {
+        "data": Object {
+          "articles": Object {
+            "0a9afe5bb4ecbf4f7f1c77611e9bf1f9": Object {
+              "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+              "body": "Create React App is a new officially supported way to create single-page React applications. It offers a modern build setup with no configuration. 
+
+Getting Starte 
+Installation 
+First, install the global package:",
+              "date": "Fri Jul 22 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
+              "title": "Create Apps with No Configuration",
+            },
+            "95c12a8f6c88953ca8f8a39da25546e6": Object {
+              "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
+              "body": "Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.",
+              "date": "Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "95c12a8f6c88953ca8f8a39da25546e6",
+              "title": "Introducing React's Error Code System",
+            },
+            "9b72140f27e62670dd7bdd1a9f61b48e": Object {
+              "authorId": "335fb02ec8f76c8515821ac9f266d276",
+              "body": "This month marks a year since we released Relay and we'd like to share an update on the project and what's next. 
+A Year In Review 
+A year after launch, we're incredibly excited to see an active community forming around Relay and that companies such as Twitter are using Relay in production:",
+              "date": "Fri Aug 05 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "9b72140f27e62670dd7bdd1a9f61b48e",
+              "title": "Relay: State of the State",
+            },
+            "cc7781c085cf37aabf120098085ff60c": Object {
+              "authorId": "78ae672985c41fae0ecde0133f41bbfa",
+              "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. 
+It is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to.",
+              "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+              "id": "cc7781c085cf37aabf120098085ff60c",
+              "title": "Mixins Considered Harmful",
+            },
+            "f4ab6de6e61c86f03f6fef46f7c407f1": Object {
+              "authorId": "d85577ea34ae50f2dac5347b5219aa23",
+              "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.
+ To that end, today we're releasing React 15.5.0.",
+              "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+              "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
+              "title": "React v15.5.0",
+            },
+          },
+          "authors": Object {
+            "2c6aa2cfe3449467d329fa17d6ea230f": Object {
+              "firstName": "Keyan",
+              "id": "2c6aa2cfe3449467d329fa17d6ea230f",
+              "lastName": "Zhang",
+              "website": "https://twitter.com/keyanzhang",
+            },
+            "335fb02ec8f76c8515821ac9f266d276": Object {
+              "firstName": "Joseph",
+              "id": "335fb02ec8f76c8515821ac9f266d276",
+              "lastName": "Savona",
+              "website": "https://twitter.com/en_JS",
+            },
+            "78ae672985c41fae0ecde0133f41bbfa": Object {
+              "firstName": "Dan",
+              "id": "78ae672985c41fae0ecde0133f41bbfa",
+              "lastName": "Abramov",
+              "website": "https://twitter.com/dan_abramov",
+            },
+            "d85577ea34ae50f2dac5347b5219aa23": Object {
+              "firstName": "Andrew",
+              "id": "d85577ea34ae50f2dac5347b5219aa23",
+              "lastName": "Clark",
+              "website": "https://twitter.com/acdlite",
+            },
+          },
+          "searchTerm": "",
+          "timestamp": 2016-12-31T22:00:00.000Z,
+        },
+        "getState": [Function],
+        "lookupAuthor": [Function],
+        "mapIntoObject": [Function],
+        "mergeWithState": [Function],
+        "notifyAll": [Function],
+        "search": [Function],
+        "startClock": [Function],
+        "subscribe": [Function],
+        "subscriberMaxId": 0,
+        "subscribers": Object {},
+        "unsubscribe": [Function],
+      }
+    }
+  />,
+}
+`;
