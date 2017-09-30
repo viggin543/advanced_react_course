@@ -25,7 +25,7 @@ yarn NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node
   },
 
     "stage-2"  : this one says babel to take javascript version including all the polyfills
-    The TC39 Process
+    The TC39 Process of javascript development 
 
 
 
@@ -36,7 +36,7 @@ yarn NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node
     [+] setting environment variable $DOCKER_PASSWORD
 
 
-    npm outdated
+    npm outdatedaqqqqaaz
     travis encrypt $(heroku auth:token) --add deploy.api_key
 
     heroku open --app advanced-react-course
