@@ -4,8 +4,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 
 module.exports = {
-  entry: {
-    styles: './lib/components/App.scss',
+  entry: {// this tells webpacl where to take different modules that will be compilet unto saparate outputs . 
+    styles: './lib/components/styles/App.scss',
     vendor: [
       'babel-polyfill',
       'react',
