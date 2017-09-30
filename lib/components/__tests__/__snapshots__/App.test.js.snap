@@ -11,8 +11,17 @@ ShallowWrapper {
   "node": <div
     className="col-md-8"
   >
-    <div>
-      <h1>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <h1
+        className="bd-pageheader h1"
+      >
          DEV BLOG 
       </h1>
     </div>
@@ -91,8 +100,17 @@ It is not always obvious how a certain pattern can be solved with composition. R
     <div
       className="col-md-8"
     >
-      <div>
-        <h1>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <h1
+          className="bd-pageheader h1"
+        >
            DEV BLOG 
         </h1>
       </div>
@@ -435,8 +453,17 @@ It is not always obvious how a certain pattern can be solved with composition. R
         "_currentElement": <div
           className="col-md-8"
         >
-          <div>
-            <h1>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <h1
+              className="bd-pageheader h1"
+            >
                DEV BLOG 
             </h1>
           </div>
@@ -515,8 +542,17 @@ It is not always obvious how a certain pattern can be solved with composition. R
         "_renderedOutput": <div
           className="col-md-8"
         >
-          <div>
-            <h1>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <h1
+              className="bd-pageheader h1"
+            >
                DEV BLOG 
             </h1>
           </div>

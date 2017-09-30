@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 
-//$easeIn: cubic-bezier(0.25, 0.46, 0.45, 0.94)
-//$easeOut: cubic-bezier(0.55, 0.085, 0.68, 0.53)
+
 $easeInOut: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
-$turnDuration: 0.6s;
 
 // Animation mixin
 @mixin animate($name, $easing, $duration: 300ms, $delay: 0s, $iteration: 1, $direction: normal, $fill-mode: forwards) {
@@ -157,14 +155,16 @@ $font-color: lighten(black, 20%);
   }
 }
 
+$turnDuration: 0.6s;
+
 .fold {
-  @include animate(fold, $easeInOut, 0.6s);
+  @include animate(fold, $easeInOut, $turnDuration);
 
   transform-style: preserve-3d;
 }
 
 .unfold {
-  @include animate(unfold, $easeInOut, 0.6s);
+  @include animate(unfold, $easeInOut, $turnDuration);
 
   transform-style: preserve-3d;
 }
