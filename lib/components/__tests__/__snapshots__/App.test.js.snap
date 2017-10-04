@@ -36,16 +36,7 @@ ShallowWrapper {
       <TimeStampContainer />
       <SearchBarContainer />
     </div>
-    <Button
-      active={false}
-      block={false}
-      bsClass="btn"
-      bsSize="large"
-      bsStyle="success"
-      disabled={false}
-    >
-      post
-    </Button>
+    <SubmitArticleForm />
     <ArticleList
       articles={
         Object {
@@ -125,16 +116,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
         <TimeStampContainer />
         <SearchBarContainer />
       </div>
-      <Button
-        active={false}
-        block={false}
-        bsClass="btn"
-        bsSize="large"
-        bsStyle="success"
-        disabled={false}
-      >
-        post
-      </Button>
+      <SubmitArticleForm />
       <ArticleList
         articles={
           Object {
@@ -478,16 +460,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
             <TimeStampContainer />
             <SearchBarContainer />
           </div>
-          <Button
-            active={false}
-            block={false}
-            bsClass="btn"
-            bsSize="large"
-            bsStyle="success"
-            disabled={false}
-          >
-            post
-          </Button>
+          <SubmitArticleForm />
           <ArticleList
             articles={
               Object {
@@ -567,16 +540,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
             <TimeStampContainer />
             <SearchBarContainer />
           </div>
-          <Button
-            active={false}
-            block={false}
-            bsClass="btn"
-            bsSize="large"
-            bsStyle="success"
-            disabled={false}
-          >
-            post
-          </Button>
+          <SubmitArticleForm />
           <ArticleList
             articles={
               Object {
