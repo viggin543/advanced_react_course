@@ -6,3 +6,4 @@ pluralsight advanced react
 [![Coverage Status](https://coveralls.io/repos/github/viggin543/advanced_react_course/badge.svg?branch=master)](https://coveralls.io/github/viggin543/advanced_react_course?branch=master)
 [![codecov](https://codecov.io/gh/viggin543/advanced_react_course/branch/master/graph/badge.svg)](https://codecov.io/gh/viggin543/advanced_react_course)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Dependency Status](https://gemnasium.com/badges/github.com/viggin543/advanced_react_course.svg)](https://gemnasium.com/github.com/viggin543/advanced_react_course)
