@@ -11,8 +11,8 @@ node_js:
 - '8'
 after_success:
 #todo: make sure build fails if dependencies failed to install
-- yarn --production
-- docker-compose build
+# - docker-compose build
+- docker build -t domrevigor/domrevigor:advanced-react --build-arg mongoHost=${mongoHost} --build-arg mongoPort=${mongoPort} --build-arg mongoUser=${mongoUser} --build-arg mongoPass=${mongoPass} .
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 - docker push domrevigor/domrevigor:advanced-react
 - docker tag domrevigor/domrevigor:advanced-react registry.heroku.com/advanced-react-course/web
