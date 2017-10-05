@@ -10,6 +10,8 @@ env:
 node_js:
 - '8'
 after_success:
+#todo: make sure build fails if dependencies failed to install
+- npm install --production
 - docker-compose build
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 - docker push domrevigor/domrevigor:advanced-react
