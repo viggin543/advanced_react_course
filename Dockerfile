@@ -9,7 +9,6 @@ ARG mongoUser
 ARG mongoPass
 ARG PORT
 ENV PORT=${PORT} mongoHost=${mongoHost} mongoPort=${mongoPort} mongoUser=${mongoUser} mongoPass=${mongoPass}
-
 RUN npm install --production && \
     npm run dist && \
     npm run build-node
