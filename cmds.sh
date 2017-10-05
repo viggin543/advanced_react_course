@@ -32,12 +32,23 @@ yarn NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node
 
     gem install travis
     travis env set DOCKER_USERNAME domrevigor
-    [+] setting environment variable $DOCKER_USERNAME
+    # [+] setting environment variable $DOCKER_USERNAME
     travis env set DOCKER_PASSWORD secretsecret
-    [+] setting environment variable $DOCKER_PASSWORD
+    # [+] setting environment variable $DOCKER_PASSWORD
 
+    travis env set DOCKER_PASSWORD secretsecret
+    travis env set DOCKER_PASSWORD secretsecret
+    travis env set DOCKER_PASSWORD secretsecret
+    travis env set DOCKER_PASSWORD secretsecret
 
     npm outdatedaqqqqaaz
     travis encrypt $(heroku auth:token) --add deploy.api_key
 
     heroku open --app advanced-react-course
+
+source env.sh
+travis env set mongoHost $mongoHost ;travis env set mongoPort $mongoHost ;travis env set mongoUser $mongoHost ;travis env set mongoPass $mongoHost 
+# [+] setting environment variable $mongoHost
+# [+] setting environment variable $mongoPort
+# [+] setting environment variable $mongoUser
+# [+] setting environment variable $mongoPass

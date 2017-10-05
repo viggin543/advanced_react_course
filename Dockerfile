@@ -3,8 +3,12 @@ LABEL author="domrevigor@gmail.com"
 ADD ["package.json","webpack.config.js", "/"] 
 ADD lib /lib/
 ADD views /views/
-ENV PORT=8099
-EXPOSE 8089
+ARG mongoHost
+ARG mongoPort
+ARG mongoUser
+ARG mongoPass
+ARG PORT
+ENV PORT=${PORT} mongoHost=${mongoHost} mongoPort=${mongoPort} mongoUser=${mongoUser} mongoPass=${mongoPass}
 RUN npm install --production && \
   npm run dist && \
   npm run build-node

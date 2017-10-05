@@ -3,3 +3,5 @@ coverage
 public
 build
 .coveralls.yml
+env
+env.sh

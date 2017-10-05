@@ -8,6 +8,14 @@ class SubmitArticleForm extends React.PureComponent {
   render() {
     return (
       <form action="article" method="post" onSubmit={this.onFormSubmit}>
+        <FormGroup>
+          <ControlLabel>title</ControlLabel>  
+          <FormControl
+            componentClass="textarea"
+            name="title"
+            placeholder="give me a title"
+          />
+        </FormGroup>
         <FormGroup 
           controlId="formControlsTextarea"
           validationState={this.getValidationState()}>
@@ -15,7 +23,7 @@ class SubmitArticleForm extends React.PureComponent {
           <FormControl 
             componentClass="textarea"
             placeholder="10 characters at least..." 
-            name="article"
+            name="body"
             value={this.state.value}
             onChange={this.handleChange}
             rows="5"

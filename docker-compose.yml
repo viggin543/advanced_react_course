@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    image: domrevigor/domrevigor:advanced-react
+    build:
+      context: .
+      args:
+       mongoHost: ${mongoHost}
+       mongoPort: ${mongoPort}
+       mongoUser: ${mongoUser}
+       mongoPass: ${mongoPass}
+    ports: 
+    - 8099:8099
+    
+
+
+
