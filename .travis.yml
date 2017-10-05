@@ -10,7 +10,7 @@ env:
 node_js:
 - '8'
 after_success:
-- docker-compose build
+- docker-compose build || exit 1
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 - docker push domrevigor/domrevigor:advanced-react
 - docker tag domrevigor/domrevigor:advanced-react registry.heroku.com/advanced-react-course/web
