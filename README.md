@@ -11,9 +11,8 @@ pluralsight advanced react
 ---
 
 make sure you have the following env vars
-- port
-- host
-- mongoHost
+- port  : this will be overriden by heroku  . defaults to 8099 localy
+- mongoHost 
 - mongoPort
 - mongoUser
 - mongoPass
