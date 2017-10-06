@@ -9,7 +9,7 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div
-    className="col-md-8"
+    className="col-md-5"
   >
     <div
       style={
@@ -25,18 +25,9 @@ ShallowWrapper {
          DEV BLOG 
       </h1>
     </div>
-    <div
-      style={
-        Object {
-          "display": "flex",
-          "justifyContent": "space-between",
-        }
-      }
-    >
-      <TimeStampContainer />
-      <SearchBarContainer />
-    </div>
-    <SubmitArticleForm />
+    <TimeStampContainer />
+    <SearchBarContainer />
+    <ArticleForm />
     <ArticleList
       articles={
         Object {
@@ -89,7 +80,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
   </div>,
   "nodes": Array [
     <div
-      className="col-md-8"
+      className="col-md-5"
     >
       <div
         style={
@@ -105,18 +96,9 @@ It is not always obvious how a certain pattern can be solved with composition. R
            DEV BLOG 
         </h1>
       </div>
-      <div
-        style={
-          Object {
-            "display": "flex",
-            "justifyContent": "space-between",
-          }
-        }
-      >
-        <TimeStampContainer />
-        <SearchBarContainer />
-      </div>
-      <SubmitArticleForm />
+      <TimeStampContainer />
+      <SearchBarContainer />
+      <ArticleForm />
       <ArticleList
         articles={
           Object {
@@ -433,7 +415,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
-          className="col-md-8"
+          className="col-md-5"
         >
           <div
             style={
@@ -449,18 +431,9 @@ It is not always obvious how a certain pattern can be solved with composition. R
                DEV BLOG 
             </h1>
           </div>
-          <div
-            style={
-              Object {
-                "display": "flex",
-                "justifyContent": "space-between",
-              }
-            }
-          >
-            <TimeStampContainer />
-            <SearchBarContainer />
-          </div>
-          <SubmitArticleForm />
+          <TimeStampContainer />
+          <SearchBarContainer />
+          <ArticleForm />
           <ArticleList
             articles={
               Object {
@@ -513,7 +486,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
         </div>,
         "_debugID": 2,
         "_renderedOutput": <div
-          className="col-md-8"
+          className="col-md-5"
         >
           <div
             style={
@@ -529,18 +502,9 @@ It is not always obvious how a certain pattern can be solved with composition. R
                DEV BLOG 
             </h1>
           </div>
-          <div
-            style={
-              Object {
-                "display": "flex",
-                "justifyContent": "space-between",
-              }
-            }
-          >
-            <TimeStampContainer />
-            <SearchBarContainer />
-          </div>
-          <SubmitArticleForm />
+          <TimeStampContainer />
+          <SearchBarContainer />
+          <ArticleForm />
           <ArticleList
             articles={
               Object {

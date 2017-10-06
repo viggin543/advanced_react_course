@@ -1,7 +1,7 @@
 import React from 'react';
 import {FormGroup,ControlLabel,FormControl,Button,HelpBlock} from 'react-bootstrap';
 
-class SubmitArticleForm extends React.PureComponent {
+class ArticleForm extends React.PureComponent {
   state ={
     value: ''
   }
@@ -15,6 +15,7 @@ class SubmitArticleForm extends React.PureComponent {
             componentClass="textarea"
             name="title"
             placeholder="give me a title"
+            required
           />
         </FormGroup>
         <FormGroup 
@@ -28,6 +29,7 @@ class SubmitArticleForm extends React.PureComponent {
             value={this.state.value}
             onChange={this.handleChange}
             rows="5"
+            required
           />
           <FormControl.Feedback />
           <HelpBlock>Validation is based on string length.</HelpBlock>
@@ -63,4 +65,4 @@ class SubmitArticleForm extends React.PureComponent {
     
   }
 }
-export default SubmitArticleForm;
+export default ArticleForm;
