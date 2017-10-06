@@ -11,6 +11,7 @@ services:
        mongoPass: ${mongoPass}
     ports: 
     - 8099:8099
+    container_name: blog
     
 
 

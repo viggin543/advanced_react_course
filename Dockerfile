@@ -1,8 +1,10 @@
 FROM node:latest
 LABEL author="domrevigor@gmail.com"
-ADD ["package.json","webpack.config.js", "/"] 
-ADD views /views/ 
-ADD lib /lib/ 
+
+WORKDIR workdir
+ADD ["package.json","webpack.config.js", "/workdir/"] 
+ADD views /workdir/views/ 
+ADD lib /workdir/lib/ 
 ARG mongoHost
 ARG mongoPort
 ARG mongoUser
