@@ -1,0 +1,15 @@
+@keyframes dropdown {
+  0% {
+    background-color: grey;
+  }
+  100% {
+    background-color: #e7e7e7;
+  }
+}
+
+.nav-animation:hover {
+  animation-name: dropdown;
+  animation-duration:  2s;
+  
+  // animation: dropdown 2s timing-function delay iteration-count direction fill-mode;
+}

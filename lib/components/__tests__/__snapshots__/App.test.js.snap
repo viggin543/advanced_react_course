@@ -16,11 +16,13 @@ ShallowWrapper {
       }
     }
   >
+    <NavBar />
+    <TimeStampContainer />
     <div
       style={
         Object {
           "display": "flex",
-          "justifyContent": "center",
+          "justifyContent": "space-between",
         }
       }
     >
@@ -29,9 +31,8 @@ ShallowWrapper {
       >
          DEV BLOG 
       </h1>
+      <SearchBarContainer />
     </div>
-    <TimeStampContainer />
-    <SearchBarContainer />
     <ArticleForm />
     <ArticleList
       articles={
@@ -92,11 +93,13 @@ It is not always obvious how a certain pattern can be solved with composition. R
         }
       }
     >
+      <NavBar />
+      <TimeStampContainer />
       <div
         style={
           Object {
             "display": "flex",
-            "justifyContent": "center",
+            "justifyContent": "space-between",
           }
         }
       >
@@ -105,9 +108,8 @@ It is not always obvious how a certain pattern can be solved with composition. R
         >
            DEV BLOG 
         </h1>
+        <SearchBarContainer />
       </div>
-      <TimeStampContainer />
-      <SearchBarContainer />
       <ArticleForm />
       <ArticleList
         articles={
@@ -432,11 +434,13 @@ It is not always obvious how a certain pattern can be solved with composition. R
             }
           }
         >
+          <NavBar />
+          <TimeStampContainer />
           <div
             style={
               Object {
                 "display": "flex",
-                "justifyContent": "center",
+                "justifyContent": "space-between",
               }
             }
           >
@@ -445,9 +449,8 @@ It is not always obvious how a certain pattern can be solved with composition. R
             >
                DEV BLOG 
             </h1>
+            <SearchBarContainer />
           </div>
-          <TimeStampContainer />
-          <SearchBarContainer />
           <ArticleForm />
           <ArticleList
             articles={
@@ -508,11 +511,13 @@ It is not always obvious how a certain pattern can be solved with composition. R
             }
           }
         >
+          <NavBar />
+          <TimeStampContainer />
           <div
             style={
               Object {
                 "display": "flex",
-                "justifyContent": "center",
+                "justifyContent": "space-between",
               }
             }
           >
@@ -521,9 +526,8 @@ It is not always obvious how a certain pattern can be solved with composition. R
             >
                DEV BLOG 
             </h1>
+            <SearchBarContainer />
           </div>
-          <TimeStampContainer />
-          <SearchBarContainer />
           <ArticleForm />
           <ArticleList
             articles={
