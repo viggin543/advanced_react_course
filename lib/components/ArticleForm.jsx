@@ -8,7 +8,10 @@ class ArticleForm extends React.PureComponent {
 
   render() {
     return (
-      <form action="article" method="post" onSubmit={this.onFormSubmit}>
+      <form
+        action="article" 
+        method="post" 
+        onSubmit={this.onFormSubmit}>
         <FormGroup>
           <ControlLabel>title</ControlLabel>  
           <FormControl
