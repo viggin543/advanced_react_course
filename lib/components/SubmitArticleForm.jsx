@@ -5,6 +5,7 @@ class SubmitArticleForm extends React.PureComponent {
   state ={
     value: ''
   }
+
   render() {
     return (
       <form action="article" method="post" onSubmit={this.onFormSubmit}>
@@ -38,6 +39,7 @@ class SubmitArticleForm extends React.PureComponent {
     );
   }
 
+
   handleChange = (e) => {
     this.setState({ value: e.target.value });
   }
@@ -57,6 +59,8 @@ class SubmitArticleForm extends React.PureComponent {
       body: new FormData(e.target)
     });
     e.target.reset();
+    this.setState({value: ''});
+    
   }
 }
 export default SubmitArticleForm;
