@@ -3,7 +3,8 @@ import {FormGroup,ControlLabel,FormControl,Button,HelpBlock} from 'react-bootstr
 
 class ArticleForm extends React.PureComponent {
   state ={
-    value: ''
+    value: '',
+    apibaseRoute : 'https://pd2cwpoovh.execute-api.us-east-2.amazonaws.com/latest/'
   }
 
   render() {
@@ -40,8 +41,21 @@ class ArticleForm extends React.PureComponent {
         <Button type="submit" >
           Submit
         </Button>
+        <Button  onClick={this.onTestApiGetway('banana')} >
+          fetch/banana
+        </Button>
+        <Button  onClick={this.onTestApiGetway('tapuz')} >
+          fetch/tapuz
+        </Button>
       </form>
     );
+  }
+
+  onTestApiGetway = (endpoint) => async () => {
+    const res = await fetch(
+      `${this.state.apibaseRoute}${endpoint}`,
+      { mode: 'cors' });
+    alert(JSON.stringify(await res.json()));
   }
 
 
@@ -65,7 +79,6 @@ class ArticleForm extends React.PureComponent {
     });
     e.target.reset();
     this.setState({value: ''});
-    
   }
 }
 export default ArticleForm;
