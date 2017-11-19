@@ -9,26 +9,26 @@ class ArticleForm extends React.PureComponent {
 
   render() {
     return (
-      <form
-        action="article" 
+      <form 
+        action={'https://pd2cwpoovh.execute-api.us-east-2.amazonaws.com/latest/article'}
         method="post" 
         onSubmit={this.onFormSubmit}>
         <FormGroup>
-          <ControlLabel>title</ControlLabel>  
+          <ControlLabel>job title</ControlLabel>  
           <FormControl
             componentClass="textarea"
             name="title"
-            placeholder="give me a title"
+            placeholder="this site was build with a custom store provider . sort of like implementing a vanila redux store"
             required
           />
         </FormGroup>
         <FormGroup 
           controlId="formControlsTextarea"
           validationState={this.getValidationState()}>
-          <ControlLabel>whats on your mind ?</ControlLabel>
+          <ControlLabel>job description</ControlLabel>
           <FormControl 
             componentClass="textarea"
-            placeholder="10 characters at least..." 
+            placeholder="this form  backend is an aws lambda + api gateway . So if you start cold give it a sec..." 
             name="body"
             value={this.state.value}
             onChange={this.handleChange}

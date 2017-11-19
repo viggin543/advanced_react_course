@@ -29,7 +29,7 @@ ShallowWrapper {
       <h1
         className="bd-pageheader h1"
       >
-         DEV BLOG 
+         HIRE ME 
       </h1>
       <SearchBarContainer />
     </div>
@@ -106,7 +106,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
         <h1
           className="bd-pageheader h1"
         >
-           DEV BLOG 
+           HIRE ME 
         </h1>
         <SearchBarContainer />
       </div>
@@ -447,7 +447,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
             <h1
               className="bd-pageheader h1"
             >
-               DEV BLOG 
+               HIRE ME 
             </h1>
             <SearchBarContainer />
           </div>
@@ -524,7 +524,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
             <h1
               className="bd-pageheader h1"
             >
-               DEV BLOG 
+               HIRE ME 
             </h1>
             <SearchBarContainer />
           </div>
