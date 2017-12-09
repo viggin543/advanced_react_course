@@ -51,4 +51,4 @@ travis env set mongoHost $mongoHost ;travis env set mongoPort $mongoHost ;travis
 # [+] setting environment variable $mongoHost
 # [+] setting environment variable $mongoPort
 # [+] setting environment variable $mongoUser
-# [+] setting environment variable $mongoPass
+# [+] setting environment variable $mongoPassgit diff --cached --submodule

@@ -1,0 +1,3 @@
+[submodule "serverless_try1"]
+	path = serverless_try1
+	url = https://github.com/viggin543/serverless_try1.git
