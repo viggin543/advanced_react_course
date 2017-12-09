@@ -51,4 +51,12 @@ travis env set mongoHost $mongoHost ;travis env set mongoPort $mongoHost ;travis
 # [+] setting environment variable $mongoHost
 # [+] setting environment variable $mongoPort
 # [+] setting environment variable $mongoUser
-# [+] setting environment variable $mongoPassgit diff --cached --submodule
+# [+] setting environment variable $mongoPass
+
+#get origin remote  url
+git remote get-url origin
+
+#https://git-scm.com/book/en/v2/Git-Tools-Submodules
+git submodule add https://github.com/viggin543/serverless_try1.git
+
+git diff --cached --submodule

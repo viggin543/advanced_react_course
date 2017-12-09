@@ -13,7 +13,8 @@
     "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/backend/server.js -i max --name appProduction && pm2 logs",
     "start": "ls && run-s dist build-node start-prod",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "postinstall": "cd serverless_try1 && npm install"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.11",
