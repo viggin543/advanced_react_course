@@ -51,7 +51,7 @@ travis env set mongoHost $mongoHost ;travis env set mongoPort $mongoHost ;travis
 # [+] setting environment variable $mongoHost
 # [+] setting environment variable $mongoPort
 # [+] setting environment variable $mongoUser
-# [+] setting environment variable $mongoPass
+# [+] setting en  vironment variable $mongoPass
 
 #get origin remote  url
 git remote get-url origin
@@ -60,3 +60,8 @@ git remote get-url origin
 git submodule add https://github.com/viggin543/serverless_try1.git
 
 git diff --cached --submodule
+
+
+ git branch --set-upstream-to=origin/master master
+# Branch master set up to track remote branch master from origin.
+# local branch master will track origin/master
