@@ -5,3 +5,4 @@ build
 .coveralls.yml
 env
 env.sh
+cmds.sh
