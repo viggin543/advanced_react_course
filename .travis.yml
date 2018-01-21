@@ -7,8 +7,7 @@ before_script:
 script: yarn coverage
 language: node_js
 env:
-- PORT=8099
-- HOST=${HOST}
+- PORT=8099 HOST=${HOST}
 node_js:
 - '8'
 after_success:
