@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223fa31c-fe88-40f9-9fb4-7c8625ead57b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/__tests__/server.test.js" afterPath="$PROJECT_DIR$/lib/__tests__/server.test.js" />
       <change beforePath="$PROJECT_DIR$/lib/renderers/server.js" afterPath="$PROJECT_DIR$/lib/renderers/server.js" />
     </list>
@@ -37,14 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/renderers/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="e#12#38#0" expanded="true" />
-                <element signature="e#134#162#0" expanded="true" />
+                <element signature="e#137#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,15 +121,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/__tests__/server.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+            <state relative-caret-position="451">
+              <caret line="93" column="48" lean-forward="true" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <element signature="e#187#3824#0" expanded="false" />
-                <element signature="e#3849#5063#0" expanded="false" />
+                <element signature="e#234#3871#0" expanded="false" />
+                <element signature="e#3896#5110#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -194,8 +193,8 @@
         <option value="$PROJECT_DIR$/lib/state-api/lib/index.js" />
         <option value="$PROJECT_DIR$/lib/renderers/api.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/lib/__tests__/server.test.js" />
         <option value="$PROJECT_DIR$/lib/renderers/server.js" />
+        <option value="$PROJECT_DIR$/lib/__tests__/server.test.js" />
       </list>
     </option>
   </component>
@@ -616,12 +615,21 @@
       <updated>1516377801228</updated>
       <workItem from="1516377807848" duration="92000" />
       <workItem from="1516471125603" duration="10168000" />
-      <workItem from="1516539378520" duration="175000" />
+      <workItem from="1516539378520" duration="517000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="backend_rendering - 2018.01.21 at 14h 58m 38s.xml">
+      <configuration name="backend rendering" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="backend_rendering - 2018.01.21 at 15h 02m 21s.xml">
+      <configuration name="backend rendering" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="backend_rendering - 2018.01.21 at 15h 03m 09s.xml">
+      <configuration name="backend rendering" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="backend_rendering - 2018.01.21 at 15h 03m 41s.xml">
       <configuration name="backend rendering" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="backend_rendering_can_create_state-api - 2018.01.21 at 14h 57m 08s.xml">
@@ -632,15 +640,6 @@
     </history-entry>
     <history-entry file="backend_rendering_can_create_state-api - 2018.01.21 at 14h 58m 02s.xml">
       <configuration name="backend rendering.can create state-api" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="backend_rendering_can_fetch_data_from_aws_api_gateway_(1) - 2018.01.21 at 14h 16m 52s.xml">
-      <configuration name="backend rendering.can fetch data from aws api gateway (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="backend_rendering_can_fetch_data_from_aws_api_gateway_(1) - 2018.01.21 at 14h 20m 53s.xml">
-      <configuration name="backend rendering.can fetch data from aws api gateway (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="backend_rendering_can_fetch_data_from_aws_api_gateway_(1) - 2018.01.21 at 14h 33m 07s.xml">
-      <configuration name="backend rendering.can fetch data from aws api gateway (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="backend_rendering_can_fetch_data_from_aws_api_gateway_(1) - 2018.01.21 at 14h 58m 08s.xml">
       <configuration name="backend rendering.can fetch data from aws api gateway (1)" configurationId="JavaScriptTestRunnerJest" />
@@ -653,7 +652,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10435000" />
+    <option name="totallyTimeSpent" value="10777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="1058" extended-state="6" />
@@ -676,11 +675,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48085105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48085105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18996799" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -713,7 +712,7 @@
           <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#12#38#0" expanded="true" />
-            <element signature="e#134#162#0" expanded="true" />
+            <element signature="e#137#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -774,8 +773,8 @@
           <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#187#3824#0" expanded="false" />
-            <element signature="e#3849#5063#0" expanded="false" />
+            <element signature="e#234#3871#0" expanded="false" />
+            <element signature="e#3896#5110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,6 +885,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,14 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/backend/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/state-api/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1010,25 +1002,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/__tests__/server.test.js">
+    <entry file="file://$PROJECT_DIR$/lib/backend/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#187#3824#0" expanded="false" />
-            <element signature="e#3849#5063#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/renderers/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="e#12#38#0" expanded="true" />
-            <element signature="e#134#162#0" expanded="true" />
+            <element signature="e#137#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/__tests__/server.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="93" column="48" lean-forward="true" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#234#3871#0" expanded="false" />
+            <element signature="e#3896#5110#0" expanded="false" />
           </folding>
         </state>
       </provider>
